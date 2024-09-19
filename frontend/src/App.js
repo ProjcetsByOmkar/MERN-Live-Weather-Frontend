@@ -41,7 +41,7 @@ function App() {
 
     try {
       const response = await axios.get(
-        `<Put your weather api link here from repective api provider website>`
+        `<Put your weather api link here from respective api provider website>`
       );
       const { temp } = response.data.main;
       const description = response.data.weather[0].description;
